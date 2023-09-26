@@ -1,0 +1,492 @@
+.profile-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.profile-box {
+    margin-top: 3rem;
+}
+
+.profile-box:first-child {
+    align-self: center;
+}
+
+.professional {
+    color: var(--blue);
+    font-size: 3rem;
+    font-family: Ubuntu;
+    font-weight: 500;
+}
+
+.designer {
+    color: var(--dark);
+    font-size: 5rem;
+    font-family: Ubuntu;
+    font-weight: 500;
+    margin-top: .8rem;
+}
+
+.hire {
+    margin-top: 1.9rem;
+}
+
+.hire button {
+    color: var(--white);
+    font-size: 1.1rem;
+    padding: .3rem 1.5rem;
+    outline-style: solid;
+    outline-width: .3rem;
+    outline-color: #ee970060;
+    border-radius: 50rem;
+    background-color: var(--bg-orange);
+    transition: all .3s;
+}
+
+.hire button:hover {
+    background-color: var(--yello);
+}
+
+.profile-box:last-child {
+    position: relative;
+}
+
+.profile-box .profile img {
+    width: 30rem;
+    /* background-color: rgba(0, 0, 0, .3); */
+    position: relative;
+    border-radius: 12.9rem;
+    z-index: -1;
+}
+
+.background {
+    width: 25.5rem;
+    height: 25.5rem;
+    outline-style: solid;
+    outline-width: 1rem;
+    outline-color: #ffdb6660;
+    border-radius: 50rem;
+    position: absolute;
+    right: .1rem;
+    bottom: .39rem;
+    background-color: #ffdb66;
+    transition: all .3s;
+    z-index: -3;
+}
+
+.round-border:first-child {
+    width: 14.6rem;
+    height: 14.6rem;
+    border-radius: 0 50rem 0 0;
+    position: absolute;
+    top: -2rem;
+    right: -2rem;
+    border-style: solid solid none none;
+    border-width: .36rem;
+    border-color: #ffdb66;
+}
+
+.round-border:last-child {
+    width: 14.6rem;
+    height: 14.6rem;
+    border-radius: 0 0 0 50rem;
+    position: absolute;
+    bottom: -2rem;
+    left: -2rem;
+    border-style: none none solid solid;
+    border-width: .36rem;
+    border-color: #ffdb66;
+}
+
+.provide-container {
+    padding: 5rem;
+}
+
+.provide {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.provide-box {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 3rem; */
+}
+
+.provide-box .card-box {
+    width: 25%;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.provide-box .card-box img {
+    width: 9rem;
+}
+
+.provide-box .card-box .card-title {
+    margin-top: .5rem;
+}
+
+.provide-button {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.provide-button button {
+    color: var(--white);
+    padding: .3rem 1.5rem;
+    border-radius: 5rem;
+    background-color: var(--bg-orange);
+    transition: all .3s;
+}
+
+.provide-button button:hover {
+    background-color: var(--bg-yello);
+}
+
+.skills-container {
+    /* width: 80%; */
+    margin: auto;
+    /* margin-top: 5rem; */
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+}
+
+
+.skills-profile {
+    position: relative;
+    z-index: -1;
+}
+
+.skills-profile img {
+    width: 30rem;
+    position: relative;
+    z-index: 1;
+}
+
+.background2 {
+    width: 16rem;
+    height: 24rem;
+    position: absolute;
+    bottom: .39rem;
+    left: 6.7rem;
+    outline-style: solid;
+    outline-width: 1rem;
+    outline-color: #ffdb6660;
+    border-radius: 0 5rem 0 5rem;
+    background-color: #ffdb66;
+    transition: all .3s;
+}
+
+.border:first-child {
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    top: -2rem;
+    left: -2rem;
+    border-style: solid none none solid;
+    border-width: .36rem;
+    border-color: #ffdb66;
+}
+
+.border:last-child {
+    width: 9rem;
+    height: 9rem;
+    position: absolute;
+    bottom: -2rem;
+    right: -2rem;
+    border-style: none solid solid none;
+    border-width: .36rem;
+    border-color: #ffdb66;
+}
+
+
+.skills-box:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.my-skills {
+    font-size: 1.9rem;
+    font-family: Ubuntu;
+    font-weight: 500;
+}
+
+.language-skill {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.language {
+    width: 25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.photoshop,
+.illustration,
+.figma,
+.canva,
+.fluter {
+    width: 5rem;
+    font-family: Ubuntu;
+    font-weight: 500;
+}
+
+.graph {
+    width: 10rem;
+    height: .3rem;
+    align-self: center;
+    background-color: var(--dark);
+}
+
+.graph-skills {
+    width: 60%;
+    height: 100%;
+    background-color: var(--bg-orange);
+}
+
+
+.graph-skills2 {
+    width: 50%;
+    height: 100%;
+    background-color: var(--bg-orange);
+}
+
+.graph-skills3 {
+    width: 90%;
+    height: 100%;
+    background-color: var(--bg-orange);
+}
+
+.graph-skills4 {
+    width: 60%;
+    height: 100%;
+    background-color: var(--bg-orange);
+}
+
+.graph-skills5 {
+    width: 50%;
+    height: 100%;
+    background-color: var(--bg-orange);
+}
+
+
+.about {
+    font-family: Ubuntu;
+    font-weight: 500;
+}
+
+.skill-button {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.skills-percentage {
+    font-family: Ubuntu;
+    font-weight: 500;
+}
+
+.skill-button button {
+    color: var(--white);
+    padding: .3rem 1.5rem;
+    border-radius: 5rem;
+    background-color: var(--bg-orange);
+    transition: all .3s;
+}
+
+
+
+.about-description {
+    margin-top: .5rem;
+}
+
+.skill-button button:hover {
+    background-color: var(--bg-yello);
+}
+
+.protfolio-container {
+    /* width: 80%; */
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.portfolio {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.portfolio-sample {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.portfolio-sample img {
+    width: 20rem;
+    /* margin: auto; */
+    margin-top: 3rem;
+    outline-style: solid;
+    outline-width: .3rem;
+    outline-color: rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-button {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.portfolio-button button {
+    color: var(--white);
+    padding: .3rem 1.5rem;
+    border-radius: 5rem;
+    background-color: var(--bg-orange);
+    transition: all .3s;
+}
+
+
+.portfolio-button button:hover {
+    background-color: var(--bg-yello);
+}
+
+.clients-feedback {
+    margin-top: 5rem;
+}
+
+.feedback {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.clients {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 3rem;
+    overflow: auto;
+
+}
+
+.client {
+    min-width: 15rem;
+    max-width: 16rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 3rem;
+    background-color: aliceblue;
+}
+
+.client-profile {
+    display: flex;
+}
+
+.client-profile img {
+    width: 3rem;
+}
+
+
+/* .client-profile  {
+    margin-left: 1rem;
+} */
+
+.client-rating {
+    display: flex;
+}
+
+.client-rating img {
+    width: 1rem;
+    margin-top: .3rem;
+}
+
+.detail {
+    margin-left: 1rem;
+}
+
+.client-comment {
+    margin-top: .5rem;
+}
+
+.footer {
+    margin-top: 5rem;
+    padding: 1rem 5rem;
+    padding-bottom: 3.5rem;
+    background-color: var(--dark);
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-box {
+    width: 15rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.footer-brand img {
+    width: 5rem;
+}
+
+.footer-description {
+    color: var(--white);
+    margin-top: 1rem;
+}
+
+.footer-title {
+    color: var(--white);
+    font-weight: 500;
+}
+
+.footer-links {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+
+.footer-links a {
+    color: rgb(216, 216, 216);
+    width: fit-content;
+}
+
+.footer-bottom {
+    width: 100%;
+    padding: 0 3rem;
+    height: 3rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    color: var(--white);
+    font-size: .9rem;
+}
+
+.scroll-top {
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    background-color: var(--blue);
+    cursor: pointer;
+}
+
+.scroll-top img {
+    width: 1rem;
+    margin-top: .25rem;
+}

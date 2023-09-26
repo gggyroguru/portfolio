@@ -1,0 +1,109 @@
+@media only screen and (max-width: 961px) {
+
+    .navbar .navbar-toggle {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: .35rem;
+        z-index: 1000;
+        cursor: pointer;
+    }
+
+    .navbar .navbar-toggle .line-1,
+    .line-2,
+    .line-3 {
+        height: .11rem;
+        background-color: var(--bg-white);
+        transition: all .3s;
+    }
+
+    .navbar .navbar-toggle .line-1 {
+        width: 1.5rem;
+    }
+
+    .navbar .navbar-toggle .line-2 {
+        width: .75rem;
+    }
+
+    .navbar .navbar-toggle .line-3 {
+        width: 1.125rem;
+    }
+
+    .navbar .navbar-toggle.active .line-1 {
+        width: 1.5rem;
+        transform: translate(0, .45rem) rotate(-45deg);
+    }
+
+    .navbar .navbar-toggle.active .line-2 {
+        width: 0;
+        opacity: 0;
+    }
+
+    .navbar .navbar-toggle.active .line-3 {
+        width: 1.5rem;
+        transform: translate(0, -.45rem) rotate(45deg);
+    }
+
+    .navbar .close-toggle {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: .35rem;
+        cursor: pointer;
+    }
+
+    /* .navbar .close-toggle .line-1,
+    .line-2,
+    .line-3 {
+        height: .11rem;
+        background-color: var(--bg-white);
+    }
+
+    .navbar .close-toggle .line-1 {
+        width: 1.5rem;
+        transform: translateY(.45rem) rotate(-45deg);
+    }
+
+    .navbar .close-toggle .line-3 {
+        width: 1.5rem;
+        transform: translateY(-.45rem) rotate(45deg);
+    } */
+
+    .navbar .navbar-items {
+        width: 100vw;
+        height: 16rem;
+        padding: 0 3rem;
+        position: fixed;
+        top: -13rem;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: var(--bg-purple);
+        transition: all .3s;
+    }
+
+    .navbar .navbar-items.active {
+        top: 3rem;
+    }
+
+    .navbar .navbar-items a {
+        width: fit-content;
+    }
+
+}
+
+@media only screen and (max-width: 561px) {
+
+    .navbar {
+        padding: 0 1.5rem;
+    }
+
+    .navbar .navbar-items {
+        padding: 1rem 1.5rem;
+    }
+
+}

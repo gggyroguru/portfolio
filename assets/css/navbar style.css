@@ -1,0 +1,60 @@
+body {
+    transition: all .3s;
+}
+
+
+.navbar {
+    width: 100vw;
+    height: 3rem;
+    padding: 0 3rem;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-purple);
+    z-index: 1000;
+}
+
+.nav {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 3rem;
+    background-color: var(--bg-purple);
+    z-index: 100;
+}
+
+.navbar .navbar-brand a img {
+    position: relative;
+    width: 3rem;
+    z-index: 1000;
+}
+
+.navbar .navbar-items {
+    display: flex;
+    gap: 3rem;
+}
+
+
+.navbar .navbar-items a {
+    position: relative;
+    z-index: 1000;
+    color: var(--white);
+    font-size: 1rem;
+    font-family: Ubuntu;
+}
+
+.navbar .navbar-items a.active {
+    opacity: 1;
+}
+
+.navbar .navbar-toggle {
+    display: none;
+}
+
+.navbar .close-toggle {
+    display: none;
+}

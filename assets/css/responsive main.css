@@ -1,0 +1,208 @@
+@media only screen and (max-width: 961px) {
+
+
+    .professional {
+        font-size: 1.5rem;
+    }
+
+    .designer {
+        font-size: 3rem;
+        margin-top: .8rem;
+    }
+
+    .hire button {
+        font-size: .9rem;
+        outline-width: .25rem;
+    }
+
+
+    .profile-box .profile img {
+        width: 16rem;
+        /* background-color: rgba(0, 0, 0, .3); */
+        border-radius: 0 0 6.9rem 0;
+    }
+
+    .background {
+        width: 13.5rem;
+        height: 13.5rem;
+        outline-width: .5rem;
+    }
+
+    .round-border:first-child {
+        width: 7.6rem;
+        height: 7.6rem;
+        top: -1.1rem;
+        right: -1.1rem;
+        border-width: .2rem;
+
+    }
+
+    .round-border:last-child {
+        width: 7.6rem;
+        height: 7.6rem;
+        bottom: -1.1rem;
+        left: -1.1rem;
+        border-width: .2rem;
+    }
+
+
+    .provide-box .card-box {
+        width: 50%;
+    }
+
+    .provide-box .card-box img {
+        width: 6rem;
+    }
+
+
+    .skills-container {
+        gap: 5rem;
+    }
+
+    .skills-profile img {
+        width: 16rem;
+    }
+
+    .background2 {
+        width: 8.5rem;
+        height: 12.9rem;
+        left: 3.6rem;
+        border-radius: 0 2.6rem 0 2.6rem;
+        outline-width: .5rem;
+    }
+
+    .border:first-child {
+        width: 5rem;
+        height: 5rem;
+        top: -1.1rem;
+        left: -1.1rem;
+        border-width: .2rem;
+    }
+
+    .border:last-child {
+        width: 5rem;
+        height: 5rem;
+        border-width: .2rem;
+        bottom: -1.1rem;
+        right: -1.1rem;
+    }
+
+    .my-skills {
+        font-size: 1.5rem;
+        font-weight: 400;
+
+    }
+
+    .language-skill {
+        gap: .5rem;
+    }
+
+    .language {
+        width: 20rem;
+    }
+
+    .skills-percentage {
+        font-weight: 400;
+    }
+
+    .graph {
+        width: 9rem;
+        height: .25rem;
+    }
+
+    .about {
+        font-weight: 400;
+    }
+
+    .photoshop,
+    .illustration,
+    .figma,
+    .canva,
+    .fluter {
+        font-weight: 400;
+    }
+
+    .protfolio-container {
+        width: 96%;
+    }
+
+    /* .portfolio-sample {
+
+    } */
+
+    .portfolio-sample img {
+        width: 16rem;
+        margin: auto;
+    }
+
+    /* .clients {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: auto;
+    } */
+
+    .footer-box {
+        width: 50%;
+    }
+
+    .footer-box:first-child {
+        width: 100%;
+    }
+
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 561px) {
+
+    .profile-container {
+        flex-wrap: wrap;
+    }
+
+    .profile-box:last-child {
+        margin-top: 1.9rem;
+    }
+
+    .provide-container {
+        padding: 5rem 3rem;
+    }
+
+    .provide-box .card-box {
+        width: 50%;
+    }
+
+    .skills-container {
+        flex-wrap: wrap;
+    }
+
+    .language-skill {
+        margin-top: 3rem;
+    }
+
+    /* .skills-box {
+        margin: auto;
+    } */
+
+    .skills-box:last-child {}
+
+    .portfolio-sample img {
+        width: 10rem;
+    }
+
+    .clients {
+        width: 90%;
+    }
+
+    .footer {
+        padding: 1rem 1.5rem;
+    }
+
+    .footer-box {
+        width: 100%;
+    }
+
+}
